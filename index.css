@@ -20,9 +20,25 @@ body {
   justify-content: center;
   display: flex;
   text-shadow: #858ebc -2px 2px 8px;
+  height: 100vh;
 }
 
 a {
   font-size: 72px;
   cursor: pointer;
+  display: flex;
+  flex-flow: column;
+  text-decoration: none;
+  align-items: center;
+}
+
+sub {
+  margin-top: -10px;
+  font-size: 24px;
+}
+
+a.previous {
+  font-size: 24px;
+  position: absolute;
+  top: 0;
 }
